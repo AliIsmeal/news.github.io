@@ -1,0 +1,207 @@
+﻿/* ================================= 
+  Element Styles
+==================================== */
+
+* {
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    /*background-image: url('img/pexels-photo.jpg');*/
+    background-color:white;
+ 
+}
+
+
+div {
+    margin-bottom:1rem;
+   
+}
+
+/*images in cards bootstrap style*/
+.card-img-top{
+   width:100%;
+    height:200px;
+}
+
+.btn{
+    border-radius:25px;
+}
+.header{
+    background-color:white
+}
+#headline{
+    font-family:Andalus;
+}
+.card-block{
+ 
+ margin-bottom:0;
+   
+     
+}
+
+/* marquee*/
+#scroll{
+    color:white;
+    
+}
+
+.scroll {
+    font-family:'Times New Roman', Times, serif;
+    font-size:18px;
+margin-right:70px;
+
+ 
+}
+
+
+.jumbotron {
+    color: red;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    font-size: 20px;
+   
+    /*background-image: url('img/sea-water-wave-111171.png');*/
+    background-color:#0c172b;
+    
+    
+}
+    .wrapper{
+        margin:auto 10px 5% auto;
+    margin-bottom:5%;
+    
+}
+
+
+/************div****************/
+
+
+#main {
+height:95%;
+background-color:rgba(255, 255, 255, 0.12);
+border-bottom:1px solid #111b58;
+}
+
+
+
+#CardDiv{
+    height:95%;
+
+}
+
+
+.Source{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:smaller;
+
+}
+
+
+#overflowDescription {
+    width:100%;
+    height:200px;
+   
+    overflow:hidden;
+    margin:0;
+    
+}
+
+
+
+#overflowTitle {
+    width: 100%;
+    height: 70%;
+   
+    overflow: hidden;
+    margin:0;
+}
+
+
+
+/************footer****************/
+.footer {
+    font-size: 1em;
+    text-align: center;
+    background-color:#6f9b88;
+   
+    color: #111b58;
+    height:200px;
+    margin-bottom:0;
+   
+}
+
+
+
+.social-icon {
+   position:relative;
+   top:50px;
+    width:60px;
+    height:60px;
+    border-radius:15px;
+    border:2px solid #808080;
+    cursor: pointer;
+    margin:0 5px 0 5px;
+     
+}
+
+
+
+.social-icon:hover{
+    width:61px;
+    height:61px;
+    background-color:white;
+    
+    
+}
+/************End footer****************/
+
+
+
+
+#center{
+    position:relative;
+    top:50%;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+/*Extra small devices (portrait phones, less than 576px)*/ 
+
+@media (max-width: 575px) {
+    
+     #D{
+
+    clear:left;
+}
+  
+
+    .wrapper{
+        margin:2%;
+    }
+     .btn ,#collapsedButton{
+         margin-bottom:10px;
+     }
+}
+
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) {
+
+    .btn{
+         margin-bottom:10px;
+     } 
+
+}
+
+/*Medium devices (tablets, less than 992px)*/ 
+@media (max-width: 991px) {.btn{
+         margin-bottom:10px;
+     }
+
+}
+
+
+
