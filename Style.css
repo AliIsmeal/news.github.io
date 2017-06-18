@@ -197,7 +197,7 @@ div .footer a:last-child {
 
 @media (max-width: 575px) {
 	
-	 .btn{
+	.btn{
 		 margin-bottom:10px;
 	 }
      .card-title{
@@ -231,21 +231,10 @@ div .footer a:last-child {
 }
 
 }
-  
-.card-title{
-    font-size:40px;
-}
-	.wrapper{
-		margin:2%;
-	}
-	 .btn ,#collapsedButton{
-		 margin-bottom:10px;
-	 }
-}
 
 
 /* Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767px) {
+@media (max-device-width: 767px) {
 
 	.btn{
 		 margin-bottom:10px;
@@ -288,6 +277,9 @@ div .footer a:last-child {
 	 }
 
 }
+
+
+
 
 
 
