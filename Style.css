@@ -244,6 +244,7 @@ div .footer a:last-child {
 	 }
      .card-title{
     font-size:37px;
+    font-weight:800;
     clear:both;
     
     
@@ -257,12 +258,13 @@ div .footer a:last-child {
 
      .Source{
          font-size:25px;
+	 font-weight:800;
      }
 
 .card-img-top{
-    width:35%;
+    width:45%;
 
-    height:35%;
+    height:45%;
     position:relative;
     top:70px;
     float:right;
