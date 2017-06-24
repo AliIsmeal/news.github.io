@@ -10,30 +10,32 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <link href="Style.css" rel="stylesheet" />
 
-    
-   
+
+
 </head>
 <body>
     <header class="header">
-        <nav class="navbar navbar-toggleable-md navbar-light ">
+        <nav id="navbar" class="navbar navbar-toggleable-md navbar-light ">
 
-            <button id="collapsed" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button id="collapsed" class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div>
-                <a class="navbar-brand  text-danger" href="#">News</a>
+            <div id="CloudyNews" class="mt-4">
+                
+                <span>WORLD NEWS</span>
+
             </div>
 
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
+            <div id="navbarNavAltMarkup" class="collapse navbar-collapse mt-5">
+                <div class="navbar-nav" >
 
                     <a id="R" class="nav-item nav-link active btn btn-danger  mx-1 text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    <button id="sport" type="button" class="btn btn-danger mx-1">Sport</button>
+                    <a id="sport" class="nav-item nav-link active btn btn-danger  mx-1 text-white" href="#">Sport</a>
                     <!-- <a class="nav-item nav-link" href="Pages/sport.html">Sport</a>-->
-                    <button id="business" type="button" class="btn btn-danger  mx-1">Business</button>
+                    <a id="business"  class="btn btn-danger  mx-1"href="#">Business</a>
                     <!--<a class="nav-item nav-link" href="Pages/weather.html">Weather</a>-->
-                    <button  id="science" type="button" class="btn btn-danger  mx-1">Science</button>
-                    
+                    <a id="science"  class="btn btn-danger  mx-1" href="#">Science</a>
+
                 </div>
             </div>
 
@@ -41,64 +43,73 @@
 
         <div id="jumbotron" class="jumbotron text-center ">
             <h1 id="headline"> WORLD NEWS</h1>
-            <marquee id="scroll"></marquee>
+            
+            
 
         </div> <!--********  End Jumbotron********/-->
-
+        
+      
+        
     </header>
+    <!--<marquee id="scroll"></marquee>-->
+    <div ><marquee id="scrollSmallDevices"></marquee></div> 
+    <!--<div>
+        <marquee id="scrollbar" class="text-red"></marquee>
+    </div>-->
     <!--*************************************************  End header******************************************************************-->
     <div class="wrapper">
-        <div class="container-fulid" >
+        <div class="container-fulid">
             <div class="row">
-                <div id="A" class="col-xs-12  col-lg-3">
+                <div id="A" class="col-xs-12 col-md-6 col-lg-3">
 
                 </div>
-                <div id="B" class="col-xs-12 col-lg-3">
+                <div id="B" class="col-xs-12 col-md-6  col-lg-3">
 
                 </div>
-                <div id="C" class="col-xs-12 col-lg-3">
+                <div id="C" class="col-xs-12 col-md-6 col-lg-3">
 
                 </div>
-                <div id="D" class="col-xs-12 col-lg-3">
+                <div id="D" class="col-xs-12 col-md-6 col-lg-3">
 
                 </div>
             </div><!--********  End row********/-->
             <div class="row">
-              
-                <div id="E" class="col-xs-12 col-lg-3">
+
+                <div id="E" class="col-xs-12 col-md-6 col-lg-3">
 
                 </div>
-                <div id="F" class="col-xs-12 col-lg-3">
+                <div id="F" class="col-xs-12 col-md-6 col-lg-3">
 
                 </div>
-                <div id="G" class="col-xs-12 col-lg-3">
+                <div id="G" class="col-xs-12 col-md-6 col-lg-3">
 
                 </div>
-                <div id="H" class="col-xs-12 col-lg-3">
+                <div id="H" class="col-xs-12 col-md-6 col-lg-3">
 
                 </div>
             </div><!--********  End row********/-->
-            
-            </div><!--********  End row********/-->
-        </div><!--****** End Container*****-->
-     <!--****** End wrapper*****-->
-   
+
+        </div><!--********  End row********/-->
+    </div><!--****** End Container*****-->
+    <!--****** End wrapper*****-->
+
 
 
 
     <div class="footer text-center text-white">
-        
+
         <!--<a href="https://www.facebook.com/"><img src="img/twitter.png" alt="Twitter Logo" class="social-icon" /></a>
         <a href="https://www.facebook.com/"><img src="img/LinkedIn.png" alt="Linkedin Logo " class="social-icon" /></a>
         <a href="https://www.facebook.com/"><img src="img/facebook.png" alt="FaceBook Logo " class="social-icon" /></a>-->
-       
+
         <p id="center"> &copy; Ali Ismael 2017.</p>
     </div>
     <script src="scripts/Data.js"></script>
     <script src="scripts/Js.js"></script>
 
     <script src="scripts/jquery-3.1.1.min (1).js"></script>
-   
+
 </body>
 </html>
+
 
