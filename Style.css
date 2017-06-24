@@ -202,10 +202,13 @@ div .footer a:last-child {
       #jumbotron{
         display:none;
     }
-      #scrollSmallDevices{
-          font-size:2em;
-          margin-top:40px;
-      }
+      #scrollSmallDevices {
+        font-size: 2em;
+        margin-top: 40px;
+        background-color: #111b58;
+        color: white;
+    }
+
       #collapsed{
           background-color:#708080;
           width:100px;
