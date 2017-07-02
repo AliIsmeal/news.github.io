@@ -25,9 +25,7 @@ div {
     margin-bottom:5%;
 }
 
-.btn{
-	border-radius:25px;
-}
+
 .header{
 	background-color:white
 }
@@ -44,7 +42,7 @@ div {
 
 /* marquee*/
 #scroll{
-	color:#808080;
+	color:white;
     
 	
 }
@@ -64,7 +62,7 @@ div {
    
 	
 	background-color:#0c172b;
-    height:20%;
+    height:200px;
 	
 	
 }
@@ -133,9 +131,9 @@ border-bottom:1px solid #111b58;
 	font-size: 1em;
 	text-align: center;
 	border-top:1px solid black;
-    background-color:#808080;
+    background-color:#505365;
 	
-	height:150px;
+	height:100px;
 	margin-bottom:0;
     padding-bottom:0;
    
@@ -145,7 +143,7 @@ border-bottom:1px solid #111b58;
 #center {
     position: relative;
     top: 50%;
-    color: black;
+    color:white;
 }
 
 
@@ -205,7 +203,7 @@ div .footer a:last-child {
 
 
       #scrollSmallDevices {
-         font-size: 3em;
+         font-size: 2em;
          margin-top: 40px;
          background-color: #111b58;
          color: white;
@@ -230,9 +228,10 @@ div .footer a:last-child {
       }
 	
 	   .btn{
-		 margin-bottom:10px;
-         width:100px;
-         height:40px;
+		
+         width:100%;
+         height:20px;
+         margin-bottom:10px;
          
 	 }
        .card-title{
@@ -253,9 +252,16 @@ div .footer a:last-child {
       .Source{
          font-size:25px;
          font-weight:800;
+         font-family:Andalus;
      }
 
 
+
+      
+    #SourceText{
+        
+        font-size:3em;
+    }
 
       .card-img-top{
         width:250px;
@@ -282,6 +288,16 @@ div .footer a:last-child {
            display:none;
      }
       
+
+      a:link{
+          color:black;
+          text-decoration:none;
+      }
+      a:visited{
+          color:black;
+          text-decoration:none;
+
+      }
       
       #CloudyNews{
            color:#d9534f;
@@ -293,7 +309,7 @@ div .footer a:last-child {
 
 
         #collapsed{
-          background-color:#a4b06d;
+          background-color:#ecda46;
           width:100px;
           height:50px;
           margin-top:50px;        
@@ -305,18 +321,25 @@ div .footer a:last-child {
 
     #scrollSmallDevices {
           font-size: 3em;
-          margin-top:40px;
-          background-color:#111b58;
+          
+          
           color:white;
+          
     }
 
-    
+   #marqueeSize{
+       height:auto;
+       background-color:#111b58;
+       margin-top:20px;
+      
+   }
 
     .btn {
        
-         margin-bottom: 10px;
-         width: 100px;
-         height: 40px;
+        
+         width: 100%;
+         height: 70px;
+         font-size:2.5em;
         
     }
 
@@ -345,6 +368,15 @@ div .footer a:last-child {
 
 
 
+    #SourceText{
+        font-family:'Times New Roman', Times, serif;
+        font-size:1.7em;
+    }
+
+
+   
+
+
 
     .card-img-top{
         width:300px;
@@ -368,8 +400,12 @@ div .footer a:last-child {
 
 
 /*Medium devices (tablets, less than 992px)*/ 
-@media (max-width: 991px) {.btn{
-		 margin-bottom:10px;
+@media (max-width: 991px) {
+    .btn{
+       
+	
+    margin-bottom:10px;
+		 
 	 }
                          
 
