@@ -20,13 +20,13 @@
             <button id="collapsed" class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div id="CloudyNews" class="mt-4">
+            <div id="CloudyNews" class="mt-4 hidden-md-up">
                 
-                <span>WORLD NEWS</span>
+                <span >WORLD NEWS</span>
 
             </div>
 
-            <div id="navbarNavAltMarkup" class="collapse navbar-collapse mt-5">
+            <div id="navbarNavAltMarkup" class="collapse navbar-collapse mt-4">
                 <div class="navbar-nav" >
 
                     <a id="R" class="nav-item nav-link active btn btn-danger  mx-1 text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -44,18 +44,19 @@
         <div id="jumbotron" class="jumbotron text-center ">
             <h1 id="headline"> WORLD NEWS</h1>
             
-            
+        <div >
+        <marquee id="scroll" class="text-red hidden-sm-down" ></marquee>
+        </div>
+
 
         </div> <!--********  End Jumbotron********/-->
         
       
         
     </header>
-    <!--<marquee id="scroll"></marquee>-->
-    <div ><marquee id="scrollSmallDevices"></marquee></div> 
-    <!--<div>
-        <marquee id="scrollbar" class="text-red"></marquee>
-    </div>-->
+    
+    <div id="marqueeSize" ><marquee id="scrollSmallDevices"class="hidden-md-up"  ></marquee></div> 
+   
     <!--*************************************************  End header******************************************************************-->
     <div class="wrapper">
         <div class="container-fulid">
@@ -63,7 +64,7 @@
                 <div id="A" class="col-xs-12 col-lg-3">
 
                 </div>
-                <div id="B" class="col-xs-12  col-lg-3">
+                <div id="B" class="col-xs-12 col-lg-3">
 
                 </div>
                 <div id="C" class="col-xs-12 col-lg-3">
@@ -84,7 +85,7 @@
                 <div id="G" class="col-xs-12 col-lg-3">
 
                 </div>
-                <div id="H" class="col-xs-12 col-lg-3">
+                <div id="H" class="col-xs-12  col-lg-3">
 
                 </div>
             </div><!--********  End row********/-->
