@@ -26,12 +26,14 @@ $(document).ready(function () {
                 news += '<div id="main">'; ' "alt="Card image cap">'
                 news += "<a href='" + data.articles[i].url + "'>";
                 news += '<img class="card-img-top" src=' + "'" + data.articles[i].urlToImage + "'" + "alt=" + "image" + "-" + data.source + ">";
-                news += "</a>";
+                
                 news += ' <div class="card-block">';
-                news += "<p class='Source'>" + source + "</p>";
+                news += "<p id='SourceText' class='Source'>" + source + "</p>";
 
                 news += '  <span class="card-title">' + data.articles[i].title + '</span> <br><br>';
-                news += '<p class="card-text">' + res + '<span style="margin-left:10px">' + "<a href='" + data.articles[i].url + "'><br>Read More...</a>" + '</p></span>';
+                news += '<p class="card-text ">' + res + '</p> '; 
+                news += '<span  style="margin-left:10px">' + "<a class='hidden-md-down'  href='" + data.articles[i].url + "'><br>Read More...</a>" + '</span>';
+                news += "</a>";
 
                 news += "<span class='Source'>" + "<p> Published At:" + data.articles[i].publishedAt + "</span>" + "</p>";
 
@@ -96,6 +98,11 @@ $(document).ready(function () {
         }
     }
 });
+
+
+
+
+
 
 
 
