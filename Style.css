@@ -334,13 +334,14 @@ div .footer a:last-child {
       
    }
 
-     .btn{
-		
-         width:100%;
-         height:20px;
-         margin-bottom:10px;
-         
-	 }
+    .btn {
+       
+        
+         width: 100%;
+         height: 70px;
+         font-size:2.5em;
+        
+    }
 
 
 
