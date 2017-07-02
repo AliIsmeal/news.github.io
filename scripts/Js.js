@@ -30,7 +30,7 @@ $(document).ready(function () {
                 news += ' <div class="card-block">';
                 news += "<p class='Source'>" + source + "</p>";
 
-                news += '  <span class="card-title">' + data.articles[i].title + '</span>';
+                news += '  <span class="card-title">' + data.articles[i].title + '</span> <br><br>';
                 news += '<p class="card-text">' + res + '<span style="margin-left:10px">' + "<a href='" + data.articles[i].url + "'><br>Read More...</a>" + '</p></span>';
 
                 news += "<span class='Source'>" + "<p> Published At:" + data.articles[i].publishedAt + "</span>" + "</p>";
