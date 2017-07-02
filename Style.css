@@ -200,14 +200,17 @@ div .footer a:last-child {
 @media (max-width: 575px) {
 
       #jumbotron{
-        display:none;
+          display:none;
     }
+
+
       #scrollSmallDevices {
-        font-size: 2em;
-        margin-top: 40px;
-        background-color: #111b58;
-        color: white;
+         font-size: 2em;
+         margin-top: 40px;
+         background-color: #111b58;
+         color: white;
     }
+
 
       #collapsed{
           background-color:#708080;
@@ -220,50 +223,51 @@ div .footer a:last-child {
 
 
        #CloudyNews{
-           color:#d9534f;
-           font-weight:800;
-           font-size:2em;
-           text-align:center;
+          color:#d9534f;
+          font-weight:800;
+          font-size:2em;
+          text-align:center;
       }
 	
-	.btn{
+	   .btn{
 		 margin-bottom:10px;
          width:100px;
          height:40px;
          
 	 }
-     .card-title{
+       .card-title{
         font-size:35px;
-         font-weight:800;
+        font-weight:800;
         clear:both;
-    
+    }
     
    
-}
 
-     .card-text{
+
+       .card-text{
           font-size:30px;
           font-weight:700;
      }
 
 
-    .Source{
+      .Source{
          font-size:25px;
          font-weight:800;
      }
 
-.card-img-top{
-    width:45%;
 
-    height:45%;
-    position:relative;
-    top:70px;
-    float:right;
-    padding:20px 0 40px 20px;
-    
+
+      .card-img-top{
+        width:250px;
+        height:250px;
+        position:relative;
+        top:70px;
+        float:right;
+        padding:20px 0 40px 20px;
+    }
    
     
-}
+
 
 
 
@@ -275,8 +279,8 @@ div .footer a:last-child {
 @media (max-device-width: 767px) {
 
       #jumbotron{
-        display:none;
-    }
+           display:none;
+     }
       
       
       #CloudyNews{
@@ -286,14 +290,18 @@ div .footer a:last-child {
            text-align:center;
       }
 
+
+
         #collapsed{
           background-color:#a4b06d;
           width:100px;
           height:50px;
-          margin-top:50px;
-         
+          margin-top:50px;        
           
       }
+
+
+
 
     #scrollSmallDevices {
           font-size: 2em;
@@ -306,19 +314,27 @@ div .footer a:last-child {
 
     .btn {
        
-        margin-bottom: 10px;
-        width: 100px;
-        height: 40px;
+         margin-bottom: 10px;
+         width: 100px;
+         height: 40px;
         
     }
+
+
+
      .card-title{
         font-size:37px;
         font-weight:800;
         clear:both;
     
-    
+    }
    
-}
+
+
+      .card-text{
+         font-size:30px;
+         font-weight:700;
+     }
 
       
 
@@ -327,17 +343,17 @@ div .footer a:last-child {
          font-weight:800;
      }
 
-.card-img-top{
-    width:45%;
 
-    height:45%;
-    position:relative;
-    top:70px;
-    float:right;
-    padding:20px 0 40px 20px;
-    
+
+
+    .card-img-top{
+        width:300px;
+        height:300px;
+        position:relative;
+        top:70px;
+        float:right;
+        padding:20px 0 40px 20px;
    
-    
 }
 
 
@@ -358,17 +374,6 @@ div .footer a:last-child {
                          
 
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
