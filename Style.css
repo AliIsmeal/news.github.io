@@ -25,9 +25,11 @@ div {
     margin-bottom:5%;
 }
 
-
+.btn{
+	border-radius:25px;
+}
 .header{
-	background-color:white;
+	background-color:white
 }
 #headline{
 	font-family:Andalus;
@@ -42,7 +44,7 @@ div {
 
 /* marquee*/
 #scroll{
-	color:white;
+	color:#808080;
     
 	
 }
@@ -62,7 +64,7 @@ div {
    
 	
 	background-color:#0c172b;
-    height:200px;
+    height:20%;
 	
 	
 }
@@ -131,9 +133,9 @@ border-bottom:1px solid #111b58;
 	font-size: 1em;
 	text-align: center;
 	border-top:1px solid black;
-    background-color:#505365;
+    background-color:#808080;
 	
-	height:100px;
+	height:150px;
 	margin-bottom:0;
     padding-bottom:0;
    
@@ -143,7 +145,7 @@ border-bottom:1px solid #111b58;
 #center {
     position: relative;
     top: 50%;
-    color:white;
+    color: black;
 }
 
 
@@ -197,114 +199,79 @@ div .footer a:last-child {
 
 @media (max-width: 575px) {
 
-    
       #jumbotron{
-           display:none;
-     }
-      
-
-      a:link{
-          color:black;
-          text-decoration:none;
-      }
-      a:visited{
-          color:black;
-          text-decoration:none;
-
-      }
-      
-      #CloudyNews{
-           color:#d9534f;
-           font-weight:800;
-           font-size:2em;
-           text-align:center;
-      }
+          display:none;
+    }
 
 
+      #scrollSmallDevices {
+         font-size: 3em;
+         margin-top: 40px;
+         background-color: #111b58;
+         color: white;
+    }
 
-        #collapsed{
-          background-color:#ecda46;
+
+      #collapsed{
+          background-color:#708080;
           width:100px;
-          height:50px;
-          margin-top:50px;        
+          height:79px;
+          margin-top:50px;
           
       }
 
 
 
-
-    #scrollSmallDevices {
-          font-size: 3em;
-          
-          
-          color:white;
-          
-    }
-
-   #marqueeSize{
-       height:auto;
-       background-color:#111b58;
-       margin-top:20px;
-      
-   }
-
-    .btn {
-       
-        
-         width: 100%;
-         height: 70px;
-         font-size:2.5em;
-        
-    }
-
-
-
-     .card-title{
-        font-size:37px;
+       #CloudyNews{
+          color:#d9534f;
+          font-weight:800;
+          font-size:2em;
+          text-align:center;
+      }
+	
+	   .btn{
+		 margin-bottom:10px;
+         width:100px;
+         height:40px;
+         
+	 }
+       .card-title{
+        font-size:35px;
         font-weight:800;
         clear:both;
-    
     }
+    
    
 
 
-      .card-text{
-         font-size:30px;
-         font-weight:700;
+       .card-text{
+          font-size:30px;
+          font-weight:700;
      }
 
-      
 
-     .Source{
+      .Source{
          font-size:25px;
          font-weight:800;
      }
 
 
 
-    #SourceText{
-        font-family:'Times New Roman', Times, serif;
-        font-size:1.7em;
-    }
-
-
-   
-
-
-
-    .card-img-top{
-        width:300px;
-        height:300px;
+      .card-img-top{
+        width:250px;
+        height:250px;
         position:relative;
         top:70px;
         float:right;
         padding:20px 0 40px 20px;
-   
-}
-
-
+    }
    
     
+
+
+
+
+
 }
 
 
@@ -315,16 +282,6 @@ div .footer a:last-child {
            display:none;
      }
       
-
-      a:link{
-          color:black;
-          text-decoration:none;
-      }
-      a:visited{
-          color:black;
-          text-decoration:none;
-
-      }
       
       #CloudyNews{
            color:#d9534f;
@@ -336,7 +293,7 @@ div .footer a:last-child {
 
 
         #collapsed{
-          background-color:#ecda46;
+          background-color:#a4b06d;
           width:100px;
           height:50px;
           margin-top:50px;        
@@ -348,25 +305,18 @@ div .footer a:last-child {
 
     #scrollSmallDevices {
           font-size: 3em;
-          
-          
+          margin-top:40px;
+          background-color:#111b58;
           color:white;
-          
     }
 
-   #marqueeSize{
-       height:auto;
-       background-color:#111b58;
-       margin-top:20px;
-      
-   }
+    
 
     .btn {
        
-        
-         width: 100%;
-         height: 70px;
-         font-size:2.5em;
+         margin-bottom: 10px;
+         width: 100px;
+         height: 40px;
         
     }
 
@@ -393,15 +343,6 @@ div .footer a:last-child {
          font-weight:800;
      }
 
-
-
-    #SourceText{
-        font-family:'Times New Roman', Times, serif;
-        font-size:1.7em;
-    }
-
-
-   
 
 
 
@@ -427,16 +368,9 @@ div .footer a:last-child {
 
 
 /*Medium devices (tablets, less than 992px)*/ 
-@media (max-width: 991px) {
-    .btn{
-       
-	
-    margin-bottom:10px;
-		 
+@media (max-width: 991px) {.btn{
+		 margin-bottom:10px;
 	 }
                          
 
 }
-
-
-
