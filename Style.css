@@ -230,6 +230,7 @@ div .footer a:last-child {
           background-color:#708080;
           width:100px;
           height:79px;
+	  margin-top:60px; 
          
           
       }
@@ -336,7 +337,7 @@ div .footer a:last-child {
           background-color:#ecda46;
           width:150px;
           height:75px;
-         
+         margin-top:60px; 
 	 
           
       }
