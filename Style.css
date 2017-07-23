@@ -321,24 +321,26 @@ div .footer a:last-child {
 
       }
       
-      #CloudyNews{
+     
+      }
+#CloudyNews{
            color:#d9534f;
            font-weight:800;
            font-size:3em;
            text-align:center;
-	   margin-bottom:60px; 
+	   margin-bottom:60px;
       }
 
 
 
         #collapsed{
           background-color:#ecda46;
-          width:100px;
-          height:50px;
-          margin-top:50px;        
+          width:150px;
+          height:75px;
+          margin-top:60px; 
+	 
           
       }
-
 
 
         .main{
