@@ -20,9 +20,9 @@
             <button id="collapsed" class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div id="CloudyNews" class="mt-4">
+            <div id="CloudyNews" class="mt-4 hidden-md-up">
                 
-                <span >WORLD NEWS</span>
+                <span id="worldNewsSmall">WORLD NEWS</span>
 
             </div>
 
@@ -45,7 +45,7 @@
             <h1 id="headline"> WORLD NEWS</h1>
             
         <div >
-        <marquee id="scroll"  ></marquee>
+        <marquee id="scroll" class="text-red hidden-sm-down" ></marquee>
         </div>
 
 
@@ -55,60 +55,69 @@
         
     </header>
     
-    <div id="marqueeSize" ><marquee id="scrollSmallDevices" class="hidden-lg-up" ></marquee></div> 
+    <div id="marqueeSize" ><marquee id="scrollSmallDevices"class="hidden-md-up"  ></marquee></div> 
    
     <!--*************************************************  End header******************************************************************-->
     <div class="wrapper">
         <div class="container-fulid">
             <div class="row">
-                <div id="A" class="col-xs-12 col-lg-3">
+
+                <div id="A" class="bodydive col-xs-12 col-lg-3">
+
 
                 </div>
-                <div id="B" class="col-xs-12  col-lg-3">
 
+                <div id="B" class="bodydive col-xs-12  col-lg-3">
                 </div>
-                <div id="C" class="col-xs-12 col-lg-3">
 
+
+
+
+                <div id="C" class="bodydive col-xs-12  col-lg-3">
                 </div>
-                <div id="D" class="col-xs-12 col-lg-3">
 
+
+                <div id="D" class="bodydive col-xs-12  col-lg-3">
                 </div>
-            </div><!--********  End row********/-->
-            <div class="row">
 
-                <div id="E" class="col-xs-12 col-lg-3">
+                <!--</div>--><!--********  End row********/-->
+                <!--<div class="row">-->
+                
 
+                        <div id="E" class="bodydive col-xs-12 col-lg-3">
+
+                        </div>
+                        <div id="F" class="bodydive col-xs-12 col-lg-3">
+
+                        </div>
+                        <div id="G" class="bodydive col-xs-12 col-lg-3">
+
+                        </div>
+                        <div id="H" class="bodydive col-xs-12 col-lg-3">
+
+                        </div>
+                    </div><!--********  End row********/-->
+
+
+                </div><!--********  End row********/-->
+                <!--</div>--><!--****** End Container*****-->
+                <!--****** End wrapper*****-->
+
+
+
+
+                <div class="footer text-center text-white">
+
+                    <!--<a href="https://www.facebook.com/"><img src="img/twitter.png" alt="Twitter Logo" class="social-icon" /></a>
+            <a href="https://www.facebook.com/"><img src="img/LinkedIn.png" alt="Linkedin Logo " class="social-icon" /></a>
+            <a href="https://www.facebook.com/"><img src="img/facebook.png" alt="FaceBook Logo " class="social-icon" /></a>-->
+
+                    <p id="center"> &copy; Ali Ismael 2017.</p>
                 </div>
-                <div id="F" class="col-xs-12  col-lg-3">
+                <script src="scripts/Data.js"></script>
+                <script src="scripts/Js.js"></script>
 
-                </div>
-                <div id="G" class="col-xs-12 col-lg-3">
-
-                </div>
-                <div id="H" class="col-xs-12 col-lg-3">
-
-                </div>
-            </div><!--********  End row********/-->
-
-        </div><!--********  End row********/-->
-    </div><!--****** End Container*****-->
-    <!--****** End wrapper*****-->
-
-
-
-
-    <div class="footer text-center text-white">
-
-        <!--<a href="https://www.facebook.com/"><img src="img/twitter.png" alt="Twitter Logo" class="social-icon" /></a>
-        <a href="https://www.facebook.com/"><img src="img/LinkedIn.png" alt="Linkedin Logo " class="social-icon" /></a>
-        <a href="https://www.facebook.com/"><img src="img/facebook.png" alt="FaceBook Logo " class="social-icon" /></a>-->
-
-        <p id="center"> &copy; Ali Ismael 2017.</p>
-    </div>
-    <script src="scripts/Data.js"></script>
-    <script src="scripts/Js.js"></script>
-
-    <script src="scripts/jquery-3.1.1.min (1).js"></script>
+                <script src="scripts/jquery-3.1.1.min (1).js"></script>
 
 </body>
 </html>
