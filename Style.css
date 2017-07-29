@@ -62,17 +62,17 @@ div {
    
 	
 	background-color:#0c172b;
-    height:200px;
+        height:200px;
 	
 	
 }
 	.wrapper{
 	
-     margin:4% ;
+        margin:4% ;
 	
+	}
 	
-	
-}
+
 
 
 
@@ -84,7 +84,7 @@ div {
 
 
 .main {
-height:35rem;
+height:36rem;
 
 background-color:white;
 border-bottom:1px solid #111b58;
