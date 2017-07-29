@@ -2,6 +2,7 @@
 
 
 
+
 /************************************************General News Array*******************************************************************/
 var worldtUrl = [
   {
@@ -13,7 +14,7 @@ var worldtUrl = [
        id: "#B"
    },
 {
-    url: "https://newsapi.org/v1/articles?source=ars-technica&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+    url: "https://newsapi.org/v1/articles?source=cnn&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
     id: "#C"
 },
  {
@@ -82,15 +83,15 @@ var sportUrl = [
 
 var BusinessUrl  = [
   {
-      url: "https://newsapi.org/v1/articles?source=handelsblatt&sortBy=latest&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+      url: "https://newsapi.org/v1/articles?source=cnbc&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
       id: "#A"
   },
    {
-       url: " https://newsapi.org/v1/articles?source=wirtschafts-woche&sortBy=latest&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+       url: "https://newsapi.org/v1/articles?source=business-insider&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
        id: "#B"
    },
 {
-    url: " https://newsapi.org/v1/articles?source=fortune&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+    url: "https://newsapi.org/v1/articles?source=fortune&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
     id: "#C"
 },
  {
@@ -98,7 +99,7 @@ var BusinessUrl  = [
      id: "#D"
  },
   {
-      url: "https://newsapi.org/v1/articles?source=financial-times&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+      url: "https://newsapi.org/v1/articles?source=the-wall-street-journal&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
       id: "#E"
   },
   {
@@ -106,49 +107,86 @@ var BusinessUrl  = [
       id: "#F"
   },
   {
-      url: " https://newsapi.org/v1/articles?source=the-economist&sortBy=latest&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+      url: "https://newsapi.org/v1/articles?source=the-economist&sortBy=latest&apiKey=7dd784debc8a4821bfefac631dbd3d53",
       id: "#G"
   },
     {
-        url: " https://newsapi.org/v1/articles?source=the-wall-street-journal&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+        url: "https://newsapi.org/v1/articles?source=bloomberg&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
         id: "#H"
     },
   
-  /************************************************Science Array*******************************************************************/
+  
 ];
 var ScienceUrl = [
   {
-      url: "https://newsapi.org/v1/articles?source=ars-technica&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+      url: "https://newsapi.org/v1/articles?source=national-geographic&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
       id: "#A"
   },
    {
-       url: "  https://newsapi.org/v1/articles?source=engadget&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+       url: " https://newsapi.org/v1/articles?source=new-scientist&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
        id: "#B"
    },
 {
-    url: " https://newsapi.org/v1/articles?source=gruenderszene&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+    url: "https://newsapi.org/v1/articles?source=ars-technica&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
     id: "#C"
 },
  {
-     url: "https://newsapi.org/v1/articles?source=hacker-news&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+     url: "https://newsapi.org/v1/articles?source=recode&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
      id: "#D"
  },
   {
-      url: "https://newsapi.org/v1/articles?source=national-geographic&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+      url: " https://newsapi.org/v1/articles?source=the-verge&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
       id: "#E"
   },
   {
-      url: "https://newsapi.org/v1/articles?source=new-scientist&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+      url: " https://newsapi.org/v1/articles?source=the-next-web&sortBy=latest&apiKey=7dd784debc8a4821bfefac631dbd3d53",
       id: "#F"
   },
   {
-      url: " https://newsapi.org/v1/articles?source=recode&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+      url: " https://newsapi.org/v1/articles?source=ign&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
       id: "#G"
   },
     {
-        url: " https://newsapi.org/v1/articles?source=the-verge&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+        url: "https://newsapi.org/v1/articles?source=polygon&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
         id: "#H"
     },
 
 
 ];
+/************************************************Science Array*******************************************************************/
+//var ScienceUrl = [
+//  {
+//      url: "https://newsapi.org/v1/articles?source=ars-technica&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+//      id: "#A"
+//  },
+//   {
+//       url: "  https://newsapi.org/v1/articles?source=engadget&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+//       id: "#B"
+//   },
+//{
+//    url: " https://newsapi.org/v1/articles?source=gruenderszene&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+//    id: "#C"
+//},
+// {
+//     url: "https://newsapi.org/v1/articles?source=hacker-news&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+//     id: "#D"
+// },
+//  {
+//      url: "https://newsapi.org/v1/articles?source=national-geographic&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+//      id: "#E"
+//  },
+//  {
+//      url: "https://newsapi.org/v1/articles?source=new-scientist&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+//      id: "#F"
+//  },
+//  {
+//      url: " https://newsapi.org/v1/articles?source=recode&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+//      id: "#G"
+//  },
+//    {
+//        url: " https://newsapi.org/v1/articles?source=the-verge&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+//        id: "#H"
+//    },
+
+
+//];
