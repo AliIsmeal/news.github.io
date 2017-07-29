@@ -33,7 +33,7 @@ $(document).ready(function () {
                         news += '<span  style="margin-left:10px">' + "<a class='hidden-md-down'  href='" + data.articles[i].url + "'><br><span style='color:blue'>More details...</span></a>" + '</span>';
                         news += "</a>";
 
-                        news += "<span class='Source'>" + "<p> Published At:" + data.articles[i].publishedAt + "</span>" + "</p>";
+                        news += '<span class="Source">' + '<p> Published At:' + data.articles[i].publishedAt + '</span>' + '</p>';
 
                         news += '</div>';
                         news += '</div>';
