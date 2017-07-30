@@ -87,7 +87,7 @@ var BusinessUrl  = [
       id: "#A"
   },
    {
-       url: " https://newsapi.org/v1/articles?source=financial-times&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+       url: "https://newsapi.org/v1/articles?source=time&sortBy=top&apiKey==7dd784debc8a4821bfefac631dbd3d53",
        id: "#B"
    },
 {
