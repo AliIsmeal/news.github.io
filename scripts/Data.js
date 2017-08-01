@@ -14,7 +14,7 @@ var worldtUrl = [
        id: "#B"
    },
 {
-    url: "https://newsapi.org/v1/articles?source=cnn&sortBy=top&apiKey=7dd784debc8a4821bfefac631dbd3d53",
+    url: "https://newsapi.org/v1/articles?source=usa-today&sortBy=latest&apiKey=7dd784debc8a4821bfefac631dbd3d53",
     id: "#C"
 },
  {
