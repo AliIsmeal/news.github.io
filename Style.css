@@ -229,7 +229,7 @@ div .footer a:last-child {
 
 
       #collapsed{
-          background-color:#148482;
+          background-color:#ffd800;
           width:110px;
           height:70px;
           margin-top:50px;
@@ -323,7 +323,7 @@ div .footer a:last-child {
       }
       
       #CloudyNews{
-           color:#d9534f;
+           color:#ffd800;
            font-weight:800;
            font-size:2.5em;
            text-align:center;
